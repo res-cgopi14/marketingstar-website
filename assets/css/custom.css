@@ -163,6 +163,7 @@ h5{font-size:var(--HeadingFive);font-weight: 700;}
 .pt-heading *,
 .product-calc-info *
 .product-calc-form *{margin-bottom: 0px;}
+.error-email::placeholder{ color: var(--PrimaryClr); }
 
 /*Typekit END*/
 .container{max-width:1300px;}
