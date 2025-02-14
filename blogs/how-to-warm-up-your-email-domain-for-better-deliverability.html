@@ -339,10 +339,10 @@
                     <h6>Share</h6>
                     <div>
                         <div class="social-media-resources d-flex">
-                            <a href="https://www.facebook.com/marketingstar.io/" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/fb.svg" alt="Facebook" width="30" height="30" loading="lazy"></a>
-                            <a href="https://www.instagram.com/marketingstar.io/" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/instagram.svg" alt="Instagram" width="30" height="30" loading="lazy"></a>
-                            <a href="https://www.linkedin.com/company/marketingstar/" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
-                            <a href="https://www.youtube.com/@Mktg-Star" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/youtube.svg" alt="Youtube" width="30" height="30" loading="lazy"></a>
+                            <a data-url="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/fb.svg" alt="Facebook" width="30" height="30" loading="lazy"></a>
+                            <a data-url="https://www.linkedin.com/sharing/share-offsite/?url=" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/linkedin.svg" alt="LinkedIn" width="30" height="30" loading="lazy"></a>
+                            <!-- <a href="https://www.instagram.com/marketingstar.io/" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/instagram.svg" alt="Instagram" width="30" height="30" loading="lazy"></a>                            
+                            <a data-url="https://www.youtube.com/@Mktg-Star" target="_blank" class="rounded-circle d-flex align-items-center justify-content-center"><img src="../assets/images/youtube.svg" alt="Youtube" width="30" height="30" loading="lazy"></a> -->
                         </div>
                     </div>
                 </div>
@@ -495,5 +495,11 @@
 <script src="../assets/js/vendor/aos.js"></script>
 
 <script src="../assets/js/custom.js"></script>
+<script>
+    $(".social-media-resources a").click(function () {
+        window.open($(this).data("url") + encodeURIComponent(location.href), "_blank");
+    });
+</script>
+
 </body>
 </html>

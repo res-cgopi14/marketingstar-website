@@ -256,8 +256,8 @@
 
   .blog-share h6{font-size: 25px;}
   .social-media-resources{column-gap:30px;}
-  .social-media-resources a{width: 30px; height: 30px; background:var(--NavBG);}
-  .social-media-resources a:hover{background: var(--PrimaryClr);}
+  .social-media-resources a{width: 30px; height: 30px;background: var(--PrimaryClr);}
+  .social-media-resources a:hover{background:var(--NavBG);}
 }
 
 
