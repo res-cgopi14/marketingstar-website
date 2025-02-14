@@ -212,7 +212,7 @@
   .pl-filter-accordian .accordion-button:not(.collapsed){box-shadow: none;}
 
   .pl-filter-accordian ul{list-style: none; padding: 0px; margin: 0px;}
-  .pl-filter-accordian ul li{padding:0.48rem 0px;}
+  .pl-filter-accordian ul li{padding:0.48rem 0px; font-size: var(--Largetxt); color:#4b4b4b; cursor: pointer;}
   .pl-filter-accordian ul li a{font-size: var(--Largetxt); color:#4b4b4b; transition:all 0.5s ease;}
   .pl-filter-accordian ul li a:hover{color:#6f6f6f; padding-left: 5px;}
 

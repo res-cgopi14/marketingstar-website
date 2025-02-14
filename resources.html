@@ -177,7 +177,7 @@
                         <li><a href="#">Partnerships</a></li>
                         <li><a href="about-us.html">About</a></li> -->
                         <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="request-demo.html" class="cnt-sales">Contact sales</a></li>
+                        <li><a href="request-demo.html" class="cnt-sales">Request a demo</a></li>
                         <li><a href="https://run.marketingstar.us/" target="_blank" class="cnt-btn">Get started</a></li>
                         <!-- <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#formModal" class="cnt-btn">Get started</a> -->
                             
@@ -274,16 +274,16 @@
                     <span>We respect your privacy and deliver only valuable content—no spam, just proven strategies for your business.</span>
                 </div>
 
-                <!-- <button class="btn-primary d-lg-none mb-3 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#productSidebar" aria-controls="productSidebar">
+                <button class="btn-primary d-lg-none mb-3 w-100" type="button" data-bs-toggle="offcanvas" data-bs-target="#productSidebar" aria-controls="productSidebar">
                     Product Filter
                 </button>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="productSidebar" aria-labelledby="productSidebarLabel">
                     <button type="button" class="btn-close d-lg-none ms-auto mb-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 
-                    <div class="product-search d-flex align-items-center">
+                    <!-- <div class="product-search d-flex align-items-center">
                         <input type="search" class="ps-field border-0 w-100 bg-transparent" placeholder="Search by Title">
                         <input type="button" value="search" class="ps-btn border-0">
-                    </div>
+                    </div> -->
 
                     <div class="accordion accordion-flush pl-filter-accordian" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -292,24 +292,24 @@
                               Types
                             </button>
                           </h2>
-                          <div id="flush-collapseTypes" class="accordion-collapse collapse">
+                          <div id="flush-collapseTypes" class="accordion-collapse collapse show">
                             <div class="accordion-body p-0 pb-4">
                                 <ul>
-                                    <li><a href="#">Guide</a></li>
-                                    <li><a href="#">Case Study</a></li>
-                                    <li><a href="#">Infographics</a></li>
+                                    <li class="filter-item">Blog</li>
+                                    <li class="filter-item">Newsroom</li>
+                                    <!-- <li><a href="#">Infographics</a></li>
                                     <li><a href="#">Podcast</a></li>
                                     <li><a href="#">Product Brief</a></li>
                                     <li><a href="#">Research and Reports</a></li>
                                     <li><a href="#">Solution Brief</a></li>
                                     <li><a href="#">Video</a></li>
-                                    <li><a href="#">Webinar</a></li>
+                                    <li><a href="#">Webinar</a></li> -->
                                 </ul>
                             </div>
                           </div>
                         </div>
 
-                        <div class="accordion-item">
+                        <!-- <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTag" aria-expanded="false" aria-controls="flush-collapseTag">
                               Tags
@@ -344,14 +344,14 @@
                                 </ul>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                     </div>
-                </div> -->
+                </div>
             </div>
 
             <div>
                 <div class="resources-list-outer">
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Blog">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/build-a-high-quality.jpg" alt="blog" width="300" height="200">
@@ -380,7 +380,7 @@
                         </div>
                     </div>
 
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Newsroom">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/effective-emailmarketing.jpg" alt="blog" width="300" height="200">
@@ -410,7 +410,7 @@
                         </div>
                     </div>
 
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Blog">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/how-to-warm-up-your-email.jpg" alt="blog" width="300" height="200">
@@ -440,7 +440,7 @@
                         </div>
                     </div>
 
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Blog">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/promotional-sms-campaigns.jpg" alt="blog" width="300" height="200">
@@ -470,7 +470,7 @@
                         </div>
                     </div> 
                     
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Blog">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/fast-track-business-growth-bg.jpg" alt="blog" width="300" height="200">
@@ -500,7 +500,7 @@
                         </div>
                     </div>
 
-                    <div class="blog-card overflow-hidden">
+                    <div class="blog-card overflow-hidden card" data-category="Blog">
                         <div class="resources-listing-th position-relative overflow-hidden">
                             <figure>
                                 <img src="assets/images/resources/ctr.jpg" alt="blog" width="300" height="200">
@@ -1168,7 +1168,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<script>
+<!-- <script>
      $('.customer-stories-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -1201,6 +1201,27 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
         ]
+    });
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        $(".filter-item").click(function () {
+            var filterValue = $(this).text().trim(); // Get the selected filter text (Blog/Newsroom)
+
+            $(".filter-item").removeClass("active"); // Remove active class from all filters
+            $(this).addClass("active"); // Add active class to the selected filter
+
+            if (filterValue === "Blog") {
+                $(".card").hide(); // Hide all cards
+                $(".card[data-category='Blog']").show(); // Show only Blog cards
+            } else if (filterValue === "Newsroom") {
+                $(".card").hide();
+                $(".card[data-category='Newsroom']").show(); // Show only Newsroom cards
+            } else {
+                $(".card").show(); // Show all cards if nothing is selected
+            }
+        });
     });
 </script>
 

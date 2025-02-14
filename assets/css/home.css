@@ -30,8 +30,8 @@
 
   .home-hero-caption{grid-template-columns:1fr 1fr; column-gap:5rem;}
   .hc-left{color:var(--WhiteClr); font-size:var(--Largetxt); row-gap:25px;}
-  .hc-left h1{color:var(--HeroHdClr); font-size:var(--HeadingFive); font-weight:400;}
-  .hc-left h2{color:var(--WhiteClr); font-weight:800;}
+  .hc-left h1{color:var(--WhiteClr); font-weight:800;}
+  .hc-left h2{color:var(--HeroHdClr); font-size:var(--HeadingFive); font-weight:400;}
   .hc-left p{opacity:0.8;}
 
   .home-hero-anim-image{border-radius: 40px; overflow: hidden; position: relative; height: 240px;}
@@ -206,7 +206,8 @@
 
 
 @media all and (max-width:767px){
-  .hc-left h1{font-size: var(--HeadingTwoSml);}
+/*   .hc-left h1{font-size: var(--HeadingTwoSml);} */
+  .hc-left h2{font-size: var(--HeadingTwoSml);}
   .para-icon1,
   .para-icon2{width:30%;}
 
