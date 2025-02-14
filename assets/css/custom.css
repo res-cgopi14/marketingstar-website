@@ -149,7 +149,7 @@ h3{font-size:var(--HeadingThree);font-weight: 700;}
 h4{font-size:var(--HeadingFour);font-weight: 700;}
 h5{font-size:var(--HeadingFive);font-weight: 700;}
 
-.link-arrow{width:18px;height:2px; margin-left:8px; margin-top:5px; background:currentColor; display:inline-block; transition:all 0.2s ease;}
+.link-arrow{width:18px;height:2px; margin-left:8px; background:currentColor; display:inline-block; transition:all 0.2s ease;}
 .link-arrow::before,
 .link-arrow::after {content:""; position:absolute; top:unset; right:-1px; width:9px; height:2px; border-radius:9999px; background-color:currentColor; transform-origin:calc(100% - 0px) 50%;}  
 .link-arrow::before {transform:rotate(45deg);}  
