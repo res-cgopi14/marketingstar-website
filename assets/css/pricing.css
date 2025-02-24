@@ -11,7 +11,11 @@
 .inner-hero-caption p{color: var(--WhiteClr); font-size: var(--Largetxt); max-width:60%; margin: 0 auto;}
 
 .pricing-main-hd h3{margin-bottom:2rem;}
-.package-offer{background: #FE7E54;color: var(--WhiteClr);border-radius: 15px 15px 0px 0px;padding: 10px 15px 10px 15px;font-size: var(--Captiontxt);display: inline-block;margin-left: 187px;}
+.package-offer{background: #FE7E54;color: var(--WhiteClr);border-radius: 15px 15px 0px 0px;padding: 10px 15px 10px 15px;font-size: var(--Captiontxt);display: inline-block;/* margin-left: 187px; */
+  left: 56%;
+  transform: translateX(-56%);
+  position: relative;
+}
 .pricing-tab .nav{border: solid 1px var(--BorderClr); border-radius: 30px; padding: 7px; display:inline-flex;}
 .pricing-tab .nav .nav-link{background: var(--WhiteClr); width:150px; color: var(--BlackClr); text-align: center; border-radius: 30px; font-size:var(--Bodytext); font-weight: 600;transition:all 1s ease;}
 .pricing-tab .nav .nav-link.active{background: var(--PrimaryClr); color: var(--WhiteClr);}
@@ -159,7 +163,7 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
   .pricing-tab .nav li{width: 50%;}
   .pricing-tab .nav .nav-link{width: 100%;}
   .pricing-grid{grid-template-columns: 1fr;}
-  .package-offer{float: right; margin-left: unset; margin-right: 30px;}
+  .package-offer{float: right; margin-left: unset; margin-right: 30px;  left:unset;  transform: unset;}
 
   .nav-wap-tabs{display: grid; grid-template-columns: 1fr 1fr; justify-content:space-between; row-gap:15px; column-gap: 15px; margin:20px 0px 40px 0px;}
   .nav-wap-tabs .btn-secondary{border-color: var(--BorderClr); font-weight: 600; color: var(--BlackClr);}
