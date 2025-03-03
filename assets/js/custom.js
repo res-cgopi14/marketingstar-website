@@ -140,7 +140,8 @@ async function handleGetStarted(inputElement) {
 
   console.log("subscribeemail", subscribeEmailValue);
 
-  let formData = { emailId: subscribeEmailValue };
+  let formData = { emailId: subscribeEmailValue};
+  const emailHashValue =  btoa(subscribeEmailValue);
 
   fetch("https://paasgstg.marketingstar.us/Home/PartnerDataWithEmailID", {
     method: "POST",
@@ -148,6 +149,7 @@ async function handleGetStarted(inputElement) {
         "Content-Type": "application/json",
     },
     body: JSON.stringify(formData),
+
   })
   .then((response) => response.json())
   .then((data) => {
@@ -155,7 +157,8 @@ async function handleGetStarted(inputElement) {
       if (data) {
           setTimeout(() => {
               console.log("success call:");
-              window.open("https://run.marketingstar.us/login?at=newuser&src=website", "_blank");
+              // window.open("https://run.marketingstar.us/login?mat=newuser&src=website", "_blank");
+              window.open(`https://run.marketingstar.us/login?mat=newuser&src=website&mem={${emailHashValue}}`, "_blank");
           }, 1000);
       }
   })
@@ -174,4 +177,3 @@ function showError(inputElement, message) {
       inputElement.placeholder = "Enter your email";
   }, 1000);
 }
-

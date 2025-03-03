@@ -77,6 +77,8 @@
             color: white;
             padding: 50px 40px;
             width: 200px;
+            position: relative;
+            z-index: 10;
         }
         .countdown-box h2 {
             font-size: 100px;
@@ -93,6 +95,28 @@
             font-size: 50px;
             letter-spacing: 10px;
             margin: 0 0 40px;
+        }
+        .thankyou-wrapper {
+            position: absolute;
+            bottom: 55px;
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+        .thankyou-wrapper.show-message {
+            opacity: 1;
+        }
+        .thankyou-message {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .thankyou-message img {
+            width: 25px;
+            margin-right: 10px;
+        }
+        .thankyou-message span {
+            color: #fff;
+            font-size: 17px;
         }
         @media (max-width: 1024px) {
             .para-icon1, .para-icon2 {
@@ -127,10 +151,11 @@
             }
             .countdown-container {
                 gap: 25px;
+                flex-wrap: wrap;
             }
             .countdown-box {
                 padding: 45px 20px;
-                width: 135px;
+                flex: 0 0 35%
             }
             .countdown-box h2 {
                 font-size: 40px;
@@ -153,14 +178,16 @@
                 top: auto;
             }
             .para-icon1, .para-icon2 {
-                width: 25%;
+                width: 15%;
             }
             .countdown-container {
                 gap: 20px;
+                flex-wrap: wrap;
+                margin-bottom: 30px;
             }
             .countdown-box {
                 padding: 30px 15px;
-                width: 100px;
+                flex: 0 0 32%
             }
             .countdown-box h2 {
                 font-size: 25px;
@@ -172,7 +199,7 @@
             .stay-tune {
                 font-size: 30px;
                 letter-spacing: 5px;
-                margin: 0 0 30px;
+                margin: 0 0 20px;
             }
         }
 
@@ -226,6 +253,13 @@
             <input type="button" class="btn-primary getStartedBtn" value="Notify Me" />
         </div>
 
+        <div class="thankyou-wrapper">
+            <div class="thankyou-message">
+                <img src="assets/images/icon/tick-icon.svg" />
+                <span>We've got your email—expect an update soon!</span>
+            </div>
+        </div>
+
         <div class="para-icon2 position-absolute">
             <img src="assets/images/home/home-hero-icon2.png" width="100" height="100" alt="Animation">
         </div>
@@ -259,7 +293,7 @@
     }
 
     let futureDate = new Date();
-    futureDate.setDate(futureDate.getDate() + 6); // Set countdown for 7 days
+    futureDate.setDate(futureDate.getDate() + 4); // Set countdown for 7 days
     startCountdown(futureDate.getTime());
 
     // Add an event listener to the input field to handle the 'Enter' key press for Get started
@@ -310,10 +344,16 @@ async function handleGetStarted(inputElement) {
   .then((data) => {
       console.log("Success:", data);
       if (data) {
-          setTimeout(() => {
-              console.log("success call:");
-              window.open("https://run.marketingstar.us/login?at=newuser&src=website", "_blank");
-          }, 1000);
+        const thankWrapper= document.querySelector('.thankyou-wrapper');
+        thankWrapper.classList.add('show-message');
+        setTimeout(()=> {
+            thankWrapper.classList.remove('show-message');
+            document.querySelector(".subscribeEmailField").value = "";
+        }, 5000)
+        //   setTimeout(() => {
+        //       console.log("success call:");
+        //       window.open("https://run.marketingstar.us/login?mat=newuser&src=website", "_blank");
+        //   }, 3000);
       }
   })
   .catch((error) => {

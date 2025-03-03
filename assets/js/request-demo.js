@@ -156,7 +156,7 @@ function requestDemoForm(event) {
         //   demoModal.hide();
         //  } else {
         //    demoModal.hide();
-        //    window.location.href = "https://run.marketingstar.us/login?at=newuser&src=website";
+        //    window.location.href = "https://run.marketingstar.us/login?mat=newuser&src=website";
         // } 
         
       } catch (error) {
