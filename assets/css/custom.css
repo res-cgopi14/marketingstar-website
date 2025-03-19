@@ -563,7 +563,29 @@ html{font-size:100%;}
     min-height: 320px;
     max-height: 900px;
 }
-    
+
+/* evenzila page media style  */
+.wrap-container-enz {
+  flex-direction: column;
+  align-items: center !important;
+  text-align: center;
+}
+.choose-brand .card-bg .card {
+  margin-bottom: 25px;
+}
+.choose-brand .card-bg {
+  padding-right: 0;
+}
+.choose-brand {
+    padding: 3rem 25px;
+}
+
+.hc-sm-heading {
+    font-size: 2rem;
+}
+.eventzilla .btn-primary {
+  padding: 7px 15px 7px 15px;
+}
 }
 
 /* marketing start - supporting page  style */
@@ -623,4 +645,128 @@ html{font-size:100%;}
       min-height: 520px;
       max-height: 900px;
   }
+}
+
+
+
+/* evenzila page style  */
+
+
+/*** Eventzilla landing page ***/
+.earn-up {
+  color: #eb4f00;
+}
+.who-join {
+  background: #fff8f8;
+}
+.wrap-container-enz {
+  display: flex;
+  align-items: flex-start;
+}
+.wrap-container-enz .icon-wrap {
+  padding-right: 15px;
+  flex: 0 0 auto;
+}
+.wrap-container-enz .text-content {
+  flex: 1;
+}
+.wrap-container-enz .icon-wrap img {
+  width: 100px;
+}
+
+.choose-brand {
+  padding: 5rem 50px;
+}
+.choose-brand .card-bg .card {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.choose-brand .card-bg {
+  display: flex;
+  align-items: stretch;
+  padding-right: 1.5rem;
+}
+.choose-brand .card-bg .card-header {
+  background: #ffffff;
+  padding: 1rem 1rem 0;
+  border-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.choose-brand .card-bg .card-body {
+  padding: 2rem 2rem 2.25rem;
+}
+.choose-brand .card-bg .card-body p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.choose-brand .card-bg .card-body .btn-arrow {
+  font-size: 17px;
+  font-family: "Mukta-medium";
+  color: #ef4e00;
+}
+
+.explore-bg {
+  background-image: url("/assets/images/affiliate-program/event-zilla/explore-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -80px;
+}
+
+.white {
+  color: #ffffff !important;
+}
+
+.explore-btn {
+  background: #eb4f00;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 10px 25px;
+  font-size: 17px;
+  font-family: "Mukta-Medium";
+}
+
+.choose-brand .card-bg .card-body .btn-arrow svg {
+  position: relative;
+  width: 18px;
+  top: 0px;
+  right: 15px;
+  opacity: 0;
+  height: 20px;
+  transition: 0.3s ease-in;
+}
+.choose-brand .card-bg .card-body .btn-arrow:hover svg {
+  top: 0;
+  right: -3px;
+  opacity: 1;
+}
+
+.choose-brand .card-bg {
+  display: flex;
+  align-items: stretch;
+  padding-right: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+ 
 }
