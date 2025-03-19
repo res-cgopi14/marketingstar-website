@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1924.51 545.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #3e0000;
+      }
+
+      .cls-3 {
+        fill: #ffd0d2;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .25;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        opacity: .38;
+      }
+
+      .cls-7 {
+        opacity: .3;
+      }
+
+      .cls-8 {
+        opacity: .11;
+      }
+
+      .cls-4 {
+        fill: #dc5f69;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-4.12" y="-5" width="1932.76" height="559.2" transform="translate(1924.51 549.2) rotate(180)"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="206.88" y="-851.48" width="1505.45" height="690.53" rx="22" ry="22"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect class="cls-2" x="-4.11" y="-8.41" width="1929.67" height="558.12"/>
+    <g class="cls-9">
+      <g>
+        <g class="cls-7">
+          <ellipse class="cls-3" cx="2037.32" cy="561.53" rx="350.3" ry="354.56"/>
+        </g>
+        <g class="cls-6">
+          <path class="cls-4" d="M289.3,226.2c0-195.82,156.84-354.56,350.3-354.56s603.84-104.1,603.84,91.72-410.38,617.4-603.84,617.4-350.3-158.74-350.3-354.56Z"/>
+        </g>
+        <g class="cls-8">
+          <path class="cls-3" d="M-109.47-141.5c93.21-172.69,307.09-239.44,477.7-149.11,170.62,90.34,582.07,190.16,488.86,362.84C763.88,244.92,201.29,425.08,30.68,334.75-139.94,244.41-202.68,31.19-109.47-141.5Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-5">
+    <g class="cls-8">
+      <path class="cls-3" d="M1832.44-77.15c-66.62,122.6-219.48,169.99-341.42,105.86-121.94-64.14-416.01-135-349.39-257.6,66.62-122.6,468.7-250.51,590.64-186.37,121.94,64.14,166.78,215.51,100.17,338.11Z"/>
+    </g>
+  </g>
+</svg>
