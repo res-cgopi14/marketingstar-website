@@ -659,18 +659,18 @@ html{font-size:100%;}
 .who-join {
   background: #fff8f8;
 }
-.wrap-container-enz {
+.wrap-container-enz{
   display: flex;
   align-items: flex-start;
 }
-.wrap-container-enz .icon-wrap {
+.wrap-container-enz .icon-wrap{
   padding-right: 15px;
   flex: 0 0 auto;
 }
-.wrap-container-enz .text-content {
+.wrap-container-enz .text-content{
   flex: 1;
 }
-.wrap-container-enz .icon-wrap img {
+.wrap-container-enz .icon-wrap img{
   width: 100px;
 }
 
