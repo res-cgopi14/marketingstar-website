@@ -1,0 +1,119 @@
+.pricing-box-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #380000;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.pricing-box-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+    padding-left: 40px;
+}
+
+.pricing-box-row:nth-child(even) {
+    background-color: #fff3f0;
+}
+
+.pricing-bg {
+    /* background-color: #e0e0e0; */
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.select-service,
+.custom-selectbox {
+    padding-left: 10px;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.shortcode {
+    font-size: 0.8rem;
+    color: gray;
+    display: block;
+    margin: 10px 0;
+}
+
+.custom-pricing-btn {
+    background-color: #ff1300;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.custom-pricing-btn:hover {
+    border-color: #FF1300 !important;
+    background: #ffffff !important;
+    color: #FF1300 !important;
+    border: 1px solid #FF1300;
+}
+
+.pricing-box-row p {
+    font: size 2rem;
+}
+
+.custon-card-titile {
+    font-size: 16px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 50%;
+}
+.ft-logo {
+    width:120px
+}
+
+.footer-top{
+    display: grid; 
+    grid-template-columns:auto auto auto auto auto 330px; column-gap: 32px;
+}
+p.new-lable-pricing {
+    left: 65px;
+    background: linear-gradient(to right, #970900, #FF1300);  
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    padding: 2px 16px;
+    color: white;
+    font-size: 17px;
+    top: -15px;
+    font-weight: 600;
+    border: 1px solid #F6DAD4;
+
+}
+.pricing-card-ultimate {
+    border: solid 1px #ff1300;
+    border-radius: 15px;
+    padding-bottom: 60px;
+}
+
+
+@media (max-width: 960px) {
+    .footer-top {
+        grid-template-columns: 1fr !important;
+        padding: 1rem 0px 0px 0px;
+    }
+}
+
