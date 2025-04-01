@@ -7,36 +7,42 @@
       }
 
       .d {
-        fill: #3e0000;
+        mix-blend-mode: soft-light;
+        opacity: .3;
       }
 
       .e {
-        mix-blend-mode: soft-light;
-        opacity: .5;
-      }
-
-      .f {
         isolation: isolate;
       }
 
+      .f {
+        fill: #330402;
+      }
+
       .g {
-        fill: red;
+        opacity: .2;
       }
 
       .h {
+        fill: red;
+      }
+
+      .i {
         clip-path: url(#b);
       }
     </style>
     <clipPath id="b">
-      <rect class="c" x="-13.38" y="-6.36" width="1379.38" height="592.8"/>
+      <rect class="c" x="-6.69" y="-6.36" width="1379.38" height="592.8"/>
     </clipPath>
   </defs>
-  <g class="f">
+  <g class="e">
     <g id="a" data-name="Layer 1">
-      <rect class="d" x="-6.17" y="-3.74" width="1379.38" height="592.8"/>
-      <g class="h">
-        <g class="e">
-          <path class="g" d="M1331.98,101.43l-546.07,588.06,12.32-220.09,326.58-246.69-361.26,198.64-218.75-164.79,787.18-155.13Z"/>
+      <rect class="f" x="-6.17" y="-3.18" width="1379.38" height="592.8"/>
+      <g class="g">
+        <g class="i">
+          <g class="d">
+            <path class="h" d="M1354.74,83.98l-605.28,651.82,13.66-243.96,361.99-273.44-400.43,220.18-242.47-182.65,872.54-171.95Z"/>
+          </g>
         </g>
       </g>
     </g>
