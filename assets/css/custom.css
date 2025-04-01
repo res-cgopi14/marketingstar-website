@@ -782,3 +782,31 @@ html{font-size:100%;}
   padding-right: 1.5rem;
 }
 
+.select-country{
+  margin: 0;
+}
+
+/* support-services css  */
+
+.name-details {
+  text-align: center;
+  margin-top: 10px;
+}
+.smbs-expect >li{
+  padding:10px 0;
+
+}
+.gallaey-info {
+  min-height:250px;
+  width:250px
+}
+.live-session-banner {
+  background-image: url('../images/live-session-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  width: 100%;
+}
+.live-session-heading{
+  font-weight: 800;
+}
