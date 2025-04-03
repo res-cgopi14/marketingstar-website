@@ -797,8 +797,8 @@ html{font-size:100%;}
 
 }
 .gallaey-info {
-  min-height:250px;
-  width:250px
+  min-height:50px;
+  width:150px
 }
 .live-session-banner {
   background-image: url('../images/live-session-bg.svg');
@@ -809,4 +809,15 @@ html{font-size:100%;}
 }
 .live-session-heading{
   font-weight: 800;
+}
+.custom-dropdown-pd{
+  padding: 10px;
+}
+.speakers-name{
+  color: #ff1300;
+    font-size: 22px;
+  font-weight: 600;
+}
+.speakers-position{
+  font-size: 14px;
 }

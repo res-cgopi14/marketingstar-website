@@ -190,8 +190,3 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
   .pricing-animation{top:0vh!important; opacity: 1;}
 
 }
-.speakers-name{
-  color: #ff1300;
-    font-size: 28px;
-  font-weight: 600;
-}
