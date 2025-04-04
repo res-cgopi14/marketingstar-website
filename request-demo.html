@@ -655,17 +655,20 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="custom-select">
-                                            <select class="form-control">
-                                                <option value="Live demo" selected>Live demo</option>
+                                        <div class="form-group">
+                                            <select class="form-select custom-dropdown-pd" id="live_demo_req">
+                                                <option value="" selected disabled>Live demo</option>
                                                 <option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
+                                            <div id="error_demo_request" class="input-error"></div>
                                         </div>
                                     </div>
+                                    
                                 </div>
+                                
                                 <div class="row">
-                                    <div class="col-md-11">
+                                    <!-- <div class="col-md-11">
                                     <div class="form-group">
                                         <label class="custom-checkbox fill-checkbox">
                                             <input type="checkbox" name="terms" id="termsCheckbox" class="fill-control-input" />
@@ -675,7 +678,20 @@
                                         </label>
                                         <div id="error_checkbox" class="input-error"></div>
                                     </div>
+                                </div> -->
+                                <div class="col-md-11">
+                                    <div class="form-group">
+                                        <label class="custom-checkbox fill-checkbox">
+                                            <input type="checkbox" name="mailcheckbox" id="mailcheckbox" class="fill-control-input" />
+                                            <span class="fill-control-indicator"></span>
+                                            <span class="px-sm-3 py-sm-2 px-md-0 py-md-0 fill-control-description">Subscribe for curated newsletters, insightful blogs, product updates, engaging webinars, and personalized ads tailored to you.
+                                                </span>
+                                        </label>
+                                        <div id="error_checkbox" class="input-error"></div>
+                                    </div>
                                 </div>
+
+
                                 <!-- <div class="col-md-6">
                                     <div class="form-group">
                                     <label class="custom-checkbox fill-checkbox">
