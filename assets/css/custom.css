@@ -591,6 +591,9 @@ html{font-size:100%;}
 .footer-logo3{
   display:none;
 }
+.footer-logo{
+  order: 1;
+}
 /* Third logo hide one mb  */
 }
 
