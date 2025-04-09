@@ -1,44 +1,3 @@
-const carousel = document.querySelector('#carouselExample');
-let isDragging = false, startPos = 0, currentTranslate = 0, prevTranslate = 0, animationID;
-
-carousel.addEventListener('mousedown', startDrag);
-carousel.addEventListener('mousemove', drag);
-carousel.addEventListener('mouseup', endDrag);
-carousel.addEventListener('mouseleave', endDrag);
-
-function startDrag(e) {
-    isDragging = true;
-    startPos = e.clientX;
-    carousel.classList.add('dragging');
-    animationID = requestAnimationFrame(updateCarousel);
-}
-
-function drag(e) {
-    if (!isDragging) return;
-    const currentPos = e.clientX;
-    currentTranslate = prevTranslate + (currentPos - startPos);
-}
-
-function endDrag() {
-    isDragging = false;
-    cancelAnimationFrame(animationID);
-    const moveAmount = currentTranslate - prevTranslate;
-    if (moveAmount < -100) {
-        bootstrap.Carousel.getInstance(carousel).next();
-    } else if (moveAmount > 100) {
-        bootstrap.Carousel.getInstance(carousel).prev();
-    }
-    prevTranslate = 0;  // Reset the position
-    currentTranslate = 0;
-    carousel.classList.remove('dragging');
-}
-
-function updateCarousel() {
-    carousel.querySelector('.carousel-inner').style.transform = `translateX(${currentTranslate}px)`;
-    if (isDragging) requestAnimationFrame(updateCarousel);
-}
-
-
 const smsDropdown = document.getElementById("sms-country");
 const whtDropdown = document.getElementById("what-country");
 const whtServiceDropdown = document.getElementById("what-service");
@@ -166,7 +125,3 @@ if (document.getElementById("what-country")?.length) {
         document.getElementById("what-value").innerText = selectedValue;
     });
 }
-var myCarousel = new bootstrap.Carousel('#carouselExample', {
-    interval: false,
-    ride: false
-});

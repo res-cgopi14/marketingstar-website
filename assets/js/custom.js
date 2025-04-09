@@ -138,33 +138,63 @@ async function handleGetStarted(inputElement) {
       return;
   }
 
-  console.log("subscribeemail", subscribeEmailValue);
+  let formData = {
+    "TextBlock":"",
+    "EmailID":subscribeEmailValue,
+    "formid":"233",
+    "apikey":"cc33cd4b_2fea_4b94_9123_bb7d48ff673e",
+    "SourceURL":"",
+    "pagereferrerurl":"",
+    "rid":"",
+    "cid":"",
+    "pagetitle":""
+  };
 
-  let formData = { emailId: subscribeEmailValue};
-  const emailHashValue =  btoa(subscribeEmailValue);
-
-  fetch("https://paasgstg.marketingstar.us/Home/PartnerDataWithEmailID", {
+  fetch("https://resu.io/Subscription/IndexInsertAPI", {
     method: "POST",
     headers: {
-        "Content-Type": "application/json",
+      "Content-Type": "application/json",
     },
     body: JSON.stringify(formData),
-
   })
   .then((response) => response.json())
-  .then((data) => {
-      console.log("Success:", data);
-      if (data) {
-          setTimeout(() => {
-              console.log("success call:");
-              // window.open("https://run.marketingstar.us/login?mat=newuser&src=website", "_blank");
-              window.open(`https://run.marketingstar.us/login?mat=newuser&src=website&mem={${emailHashValue}}`, "_blank");
-          }, 1000);
-      }
+  .then((data)=>{
+    console.log("success : ",data)
+    inputElement.value = "";
+
   })
-  .catch((error) => {
-      console.error("Error:", error);
-  });
+  .catch((error)=>{
+    console.error("Error :",error)
+  })
+
+
+  // console.log("subscribeemail", subscribeEmailValue);
+
+  // let formData = { emailId: subscribeEmailValue};
+  // const emailHashValue =  btoa(subscribeEmailValue);
+
+  // fetch("https://paasgstg.marketingstar.us/Home/PartnerDataWithEmailID", {
+  //   method: "POST",
+  //   headers: {
+  //       "Content-Type": "application/json",
+  //   },
+  //   body: JSON.stringify(formData),
+
+  // })
+  // .then((response) => response.json())
+  // .then((data) => {
+  //     console.log("Success:", data);
+  //     if (data) {
+  //         setTimeout(() => {
+  //             console.log("success call:");
+  //             // window.open("https://run.marketingstar.us/login?mat=newuser&src=website", "_blank");
+  //             window.open(`https://run.marketingstar.us/login?mat=newuser&src=website&mem={${emailHashValue}}`, "_blank");
+  //         }, 1000);
+  //     }
+  // })
+  // .catch((error) => {
+  //     console.error("Error:", error);
+  // });
 
 }
 
