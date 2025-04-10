@@ -190,3 +190,19 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
   .pricing-animation{top:0vh!important; opacity: 1;}
 
 }
+
+ .custom-selectbox select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 8px 30px 8px 12px;
+      font-size: 16px;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      background-color: white;
+      background-image: url('../images/down-arrow-pricing.svg');
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      background-size: 16px;
+      width: 200px;
+    }
