@@ -266,10 +266,22 @@
                     <h4>Boost Your Marketing Success</h4>
                     <p>Get actionable tips, expert advice, and the latest marketing trends tailored for growing businesses—delivered straight to your inbox.</p>
                     <label>Join the Marketing Star community today.</label>
+
                     <div class="d-flex flex-column flex-xl-row rn-group">
                         <input type="text" placeholder="Enter your email" class="form-control subscribeEmailField ps-3" />
                         <input type="submit" value="Subscribe Now" class="btn-primary mt-2 mt-xl-0 getStartedBtn" />
+      
                     </div>
+                                      
+    <!-- Cloudflare Turnstile -->
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAABMnlbntlIIuNV9l"></div>
+
+                    <!-- <span id="thankmgs">Thank you! Look for a confirmation email shortly to complete your subscription.</span> -->
+                    
+                        <p id="notification" class="notification"></p>
+                     
+                      
+                   
                     <span>We respect your privacy and deliver only valuable content—no spam, just proven strategies for your business.</span>
                 </div>
 
@@ -1039,6 +1051,11 @@
 <script src="assets/js/request-demo.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/ms-footer.js"></script>
+
+
+
+  <!-- Cloudflare Turnstile Script -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 
 <script>

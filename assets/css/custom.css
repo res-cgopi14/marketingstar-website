@@ -948,4 +948,8 @@ p.new-lable-pricing {
   border-radius: 15px;
   padding-bottom: 60px;
 }
+.notification{
+  display: none;
+  color: #ff1300 !important;
 
+}

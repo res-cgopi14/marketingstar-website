@@ -162,6 +162,8 @@ async function handleGetStarted(inputElement) {
     console.log("success : ",data)
     inputElement.value = "";
 
+    showNotification("You're in! Thank you for subscribing.");
+
   })
   .catch((error)=>{
     console.error("Error :",error)
@@ -196,6 +198,12 @@ async function handleGetStarted(inputElement) {
   //     console.error("Error:", error);
   // });
 
+}
+
+function showNotification(message) {
+  const notification = document.getElementById("notification");
+  notification.innerHTML = `${message}`;
+  notification.style.display = "block";
 }
 
 function showError(inputElement, message) {
