@@ -956,3 +956,44 @@ p.new-lable-pricing {
 .knowmore-eventz{
   font-family: "averta-regular";
 }
+
+p.new-lable-pricing-days {
+  left: 80px;
+  background: linear-gradient(to right, #970900, #FF1300);  
+  position: absolute;
+  border: none;
+  border-radius: 20px;
+  padding: 2px 16px;
+  color: white;
+  font-size: 17px;
+  top: -15px;
+  font-weight: 600;
+  border: 1px solid #F6DAD4;
+
+}
+@media screen and (max-width:768px) {
+  
+p.new-lable-pricing-days {
+  left: 100px;
+}  p.new-lable-pricing {
+  
+  left: 100px;
+  font-size: 12px;
+  top: -12px;
+
+}
+}
+@media (min-width:768px) and (max-width:1024px) {
+  
+  p.new-lable-pricing-days {
+    left: 30px;
+    font-size: 12px;
+    top: -12px;
+
+  }
+  p.new-lable-pricing {
+    left: 30px;
+    font-size: 12px;
+    top: -12px;
+  }
+  }
