@@ -2184,7 +2184,7 @@ p.new-lable-pricing {
 }
 
 p.new-lable-pricing-days {
-  left: 80px;
+  left: 75px;
   background: #ffffff;
   position: absolute;
   border: none;
@@ -2203,12 +2203,12 @@ p.new-lable-pricing-days {
 @media screen and (max-width:768px) {
 
   p.new-lable-pricing-days {
-    left: 100px;
+    left: 70px;
   }
 
   p.new-lable-pricing {
 
-    left: 100px;
+    left: 85px;
     font-size: 12px;
     top: -12px;
 
