@@ -229,6 +229,7 @@
                     <img src="assets/images/news-letter.svg" alt="newsletter" width="300" height="300" loading="lazy">
                 </figure>
             </div>
+            <form id="whats-new" onsubmit="event.preventDefault();">
             <div class="nl-right d-flex flex-column">
                 <h4>Join Our Customer Newsletter</h4>
                 <p>Receive the latest Marketing Star product updates in your inbox.</p>
@@ -237,9 +238,19 @@
                     <input type="email" class="news-field" placeholder="jimcarter@company.com">
                     <input type="submit" value="Subscribe" class="btn-primary getStartedBtn">
                 </div>
+
+                  <!-- Cloudflare Turnstile CAPTCHA -->
+    <div 
+      class="cf-turnstile" 
+      data-sitekey="0x4AAAAAABMnlbntlIIuNV9l" 
+      data-callback="onTurnstileSuccess">
+                    </div>
                 <p id="notification" class="notification"></p>
                 <span>* You can unsubscribe at any time.</span>
             </div>
+           
+                  
+            </form>
         </div>
 
         <div class="products-listing">
@@ -763,6 +774,10 @@
 <script src="assets/js/request-demo.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/ms-footer.js"></script>
+
+ <!-- Cloudflare Turnstile Script -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 
 </body>
 </html>

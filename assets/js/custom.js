@@ -137,11 +137,15 @@ async function handleGetStarted(inputElement) {
       showError(inputElement, "Enter a valid email address");
       return;
   }
-
+if (!turnstileToken) {
+    showNotification("Please complete the captcha challenge.");
+    return;
+  }
   let formData = {
     "TextBlock":"",
     "EmailID":subscribeEmailValue,
     "formid":"233",
+    "captchaToken": turnstileToken, 
     "apikey":"cc33cd4b_2fea_4b94_9123_bb7d48ff673e",
     "SourceURL":"",
     "pagereferrerurl":"",
@@ -163,7 +167,8 @@ async function handleGetStarted(inputElement) {
     inputElement.value = "";
 
     showNotification("You're in! Thank you for subscribing.");
-
+ turnstileToken = "";
+    window.turnstile.reset();
   })
   .catch((error)=>{
     console.error("Error :",error)
@@ -214,4 +219,10 @@ function showError(inputElement, message) {
       inputElement.classList.remove("error-email");
       inputElement.placeholder = "Enter your email";
   }, 1000);
+}
+let turnstileToken = "";
+
+function onTurnstileSuccess(token) {
+  // This function is called automatically when user completes captcha
+  turnstileToken = token;  // Save the token for submission
 }

@@ -262,19 +262,34 @@
 
         <div class="resources-listing">
             <div>
-                <div class="resources-newsletter d-flex flex-column ">
+             <form id="subscriptionForm" onsubmit="event.preventDefault();">
+  <div class="resources-newsletter d-flex flex-column">
                     <h4>Boost Your Marketing Success</h4>
                     <p>Get actionable tips, expert advice, and the latest marketing trends tailored for growing businesses—delivered straight to your inbox.</p>
                     <label>Join the Marketing Star community today.</label>
 
                     <div class="d-flex flex-column flex-xl-row rn-group">
-                        <input type="text" placeholder="Enter your email" class="form-control subscribeEmailField ps-3" />
-                        <input type="submit" value="Subscribe Now" class="btn-primary mt-2 mt-xl-0 getStartedBtn" />
-      
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Enter your email" 
+        class="form-control subscribeEmailField ps-3" 
+        required 
+      />
+      <input 
+        type="submit" 
+        value="Subscribe Now" 
+        class="btn-primary mt-2 mt-xl-0 getStartedBtn" 
+      />
+    </div>
+
+    <!-- Cloudflare Turnstile CAPTCHA -->
+    <div 
+      class="cf-turnstile" 
+      data-sitekey="0x4AAAAAABMnlbntlIIuNV9l" 
+      data-callback="onTurnstileSuccess">
                     </div>
-                    <!-- <div class="cf-turnstile" data-sitekey="0x4AAAAAABMnlbntlIIuNV9l"></div> -->
-                    <!-- <span id="thankmgs">Thank you! Look for a confirmation email shortly to complete your subscription.</span> -->
-                    
+                  
                         <p id="notification" class="notification"></p>
                      
                       
@@ -1051,9 +1066,6 @@
 
 
 
-  <!-- Cloudflare Turnstile Script -->
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
@@ -1142,6 +1154,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 </script>
 
+
+  <!-- Cloudflare Turnstile Script -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 </body>
 </html>
