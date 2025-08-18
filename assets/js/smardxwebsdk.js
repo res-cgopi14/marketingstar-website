@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	let script = document.createElement("script");
 	script.setAttribute("defer", "defer");
 	script.setAttribute("fcm_service_path", "firebase-messaging-sw.js");
-	script.src ="https://sdk.smartdx.co/handlers/fc8bd0d7e5ab4abcb6c9aa5174ca9961.sdk";	
+	script.src ="https://sdk.resul.io/handlers/f464547cd0b14ef7a91ca0c5cbc88b2e.sdk";	
 	document.head.appendChild(script);
   });
