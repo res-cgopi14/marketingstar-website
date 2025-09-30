@@ -213,7 +213,6 @@ function requestDemoForm(event) {
         // } 
         
       } catch (error) {
-        alert("Err")
         console.error('Error fetching data:', error);
       }
   };
