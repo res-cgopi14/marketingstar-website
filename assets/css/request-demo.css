@@ -55,4 +55,18 @@
   .demo-video .ratio-16x9{--bs-aspect-ratio:75%}
   
 }
-
+#close-demo{
+  cursor: pointer;
+}
+#close-demo>img{
+     height: 30px;
+    width: 30px;
+    padding: 3px;
+    margin: 6px;
+}
+.thankyoumsg{
+  font-size: 14px;
+  color: var(--PrimaryClr);
+  margin-top: 10px;
+  display: none;
+}

@@ -3,6 +3,11 @@ var demoModal = new bootstrap.Modal(document.getElementById("formModal"));
 // document.getElementById('email').value = getStartVal;
 
 const locationUrlVal = window.location.href;
+const closeDemo =document.querySelector("#close-demo");
+const thanksyoumsg=document.querySelectorAll(".thankyoumsg")[0];
+const closeOutbtn=document.querySelectorAll(".close-otbtn")[0];
+
+
 
 document.addEventListener("DOMContentLoaded", function () {
   // const requestUrlVal = window.location.href.split('/')[3];
@@ -196,6 +201,9 @@ function requestDemoForm(event) {
         // console.log(data);
 
         demoModal.hide();
+      form.reset()
+      thanksyoumsg.display.style="block"
+
 
         // if (locationUrlVal.includes('request-demo.html')) {
         //   demoModal.hide();
@@ -205,6 +213,7 @@ function requestDemoForm(event) {
         // } 
         
       } catch (error) {
+        alert("Err")
         console.error('Error fetching data:', error);
       }
   };
@@ -296,3 +305,11 @@ const onlyNumbers = (e) => {
 const pasteDisable = (event) => {
   event.preventDefault();
 };
+closeDemo.addEventListener("click",()=>{
+ demoModal.hide();
+})
+
+
+closeOutbtn.addEventListener("click",()=>{
+ demoModal.hide();
+})

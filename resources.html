@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marketing Automation Platform for Email, SMS, WhatsApp, and QR | Marketing Star</title>
     <meta name="description" content="Discover marketing automation for small businesses made simple. Marketing Star is our all-in-one marketing automation platform for B2B & B2C needs.">
-    
+    <link rel="canonical" href="https://www.marketingstar.io/resources.html">
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -271,20 +272,11 @@
                     <p>Get actionable tips, expert advice, and the latest marketing trends tailored for growing businesses—delivered straight to your inbox.</p>
                     <label>Join the Marketing Star community today.</label>
 
-                    <div class="d-flex flex-column flex-xl-row rn-group">
-      <input 
-        type="email" 
-        name="email" 
-        placeholder="Enter your email" 
-        class="form-control subscribeEmailField ps-3" 
-        required 
-      />
-      <input 
-        type="submit" 
-        value="Subscribe Now" 
-        class="btn-primary mt-2 mt-xl-0 getStartedBtn" 
-      />
-    </div>
+
+    <div class="d-flex flex-column flex-xl-row rn-group">
+    <input type="email" name="email" placeholder="Enter your email" class="form-control subscribeEmailField ps-3" required />
+    <input type="submit" value="Subscribe Now" class="btn-primary mt-2 mt-xl-0 getStartedBtn" onclick="test()" />
+</div>
 
     <!-- Cloudflare Turnstile CAPTCHA -->
     <div 
@@ -1157,6 +1149,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 </script>
 
+<!-- <script>
+    function test(){
+        const msvalue = document.querySelectorAll(".getStartedBtn")[0].value;
+       var cusEvent = { 
+            eventName: 'marketing email' ,                        
+            data: { 'EmailID': msvalue }          
+}; 
+window?.ReWebSDK?.customEvent(cusEvent); 
+    }
+</script> -->
 
   <!-- Cloudflare Turnstile Script -->
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
