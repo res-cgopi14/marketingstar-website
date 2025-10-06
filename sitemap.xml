@@ -1,171 +1,197 @@
-
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
 <url>
   <loc>https://www.marketingstar.io/</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.marketingstar.io/pricing.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <loc>https://www.marketingstar.io/about-us.html</loc>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.marketingstar.io/index.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <loc>https://www.marketingstar.io/pricing.html</loc>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/email-marketing.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/sms-marketing.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/whatsapp-marketing.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/qr-code-generator.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/form-generator.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/template-builder.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/analytics.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/data-enricher.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/whats-new.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/explorer.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/intermediate.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/advanced.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/industry.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/resources.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/request-demo.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/high-performer-in-g2-marketing-automation-software-report.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/build-a-high-quality-email-list-that-drives-results.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/seven-steps-go-to-market-strategy.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/how-to-warm-up-your-email-domain-for-better-deliverability.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/promotional-sms-campaigns.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/terms-and-conditions.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/email-authentication.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/qr-email.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/introducing-qr-sms.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/live-webinars.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/qr-codes-ecommerce-sales.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/effective-email-marketing-for-smbs.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marketingstar.io/blogs/3-tips-to-improve-click-through-rate-for-small-business.html</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.marketingstar.io/assets/pdf/email-deliverability.pdf</loc>
-  <lastmod>2025-09-04T10:46:43+00:00</lastmod>
+  <lastmod>2025-09-30T12:31:19+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 
 
-<url><loc>https://www.marketingstar.io/about-us.html</loc><lastmod>2025-09-25T08:00:57+00:00</lastmod><priority>0.80</priority></url><url><loc>https://www.marketingstar.io/support-service.html</loc><lastmod>2025-09-25T08:00:57+00:00</lastmod><priority>0.80</priority></url></urlset>
-sitemap.xml
-Displaying sitemap.xml.
+</urlset>
