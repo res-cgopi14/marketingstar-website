@@ -254,10 +254,11 @@
 <!-- footer  -->
 <div id="global-footer"></div>
 
-<div class="modal fade" id="formModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="formModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal fade " id="formModal" tabindex="-1" data-bs-keyboard="false" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl " >
         <div class="modal-content p-4 position-relative">
               <span class="position-absolute top-0 end-0" id="close-demo"><img src="./assets/images/cross-close-icon.svg" alt="close"></span>
+
             <!-- <div class="modal-header">
     <button
         type="button"
@@ -266,14 +267,9 @@
         aria-label="Close"
     ></button>
     </div> -->
-    <style>
-       
-
-    </style>
             <div class="modal-body">
                 <form>
                     <div class="row">
-                  
                         <div class="col-md-5">
                             <h3 class="mb-4 leftsidetitle">Let’s Get You Started</h3>
                             <p class="text-muted">
@@ -593,7 +589,12 @@
                                         <button type="submit" onclick="requestDemoForm(event)" class="btn btn-primary">View Demo</button>
                                     </div>
                                 </div>
-                               
+                                 <div class="row text-center">
+                                    <div class="col-md-12">
+                                       <p class="thankyoumsg"><strong>Thank you for your submission. Our team will review the details and get back to you shortly.</strong></p>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -608,7 +609,7 @@
 <script src="assets/js/vendor/aos.js"></script>
 
 <script src="assets/js/custom.js"></script>
-<script src="assets/js/request-demo-test.js"></script>
+<!-- <script src="assets/js/request-demo.js"></script> -->
 <script src="assets/js/ms-footer.js"></script>
 
 </body>
