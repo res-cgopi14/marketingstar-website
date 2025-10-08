@@ -3,9 +3,9 @@ var demoModal = new bootstrap.Modal(document.getElementById("formModal"));
 // document.getElementById('email').value = getStartVal;
 
 const locationUrlVal = window.location.href;
-const closeDemo =document.querySelector("#close-demo");
+// const closeDemo =document.querySelector("#close-demo");
 const thanksyoumsg=document.querySelectorAll(".thankyoumsg")[0];
-const closeOutbtn=document.querySelectorAll(".close-otbtn")[0];
+// const closeOutbtn=document.querySelectorAll(".close-otbtn")[0];
 
 
 
@@ -181,8 +181,7 @@ function requestDemoForm(event) {
     // console.log(formData)
     // fetch("https://resu.io/Subscription/IndexInsertTemp/cust_cc33cd4b_2fea_4b94_9123_bb7d48ff673e/229", {
     const urls = [
-        'https://resu.io/Subscription/IndexInsertAPI',
-        'https://frmtrgmail.marketingstar.io/send-email'
+        'https://resu.io/Subscription/formsubmission'
     ];
 
     const fetchMultiple = async () => {
@@ -304,11 +303,11 @@ const onlyNumbers = (e) => {
 const pasteDisable = (event) => {
   event.preventDefault();
 };
-closeDemo.addEventListener("click",()=>{
- demoModal.hide();
-})
+// closeDemo.addEventListener("click",()=>{
+//  demoModal.hide();
+// })
 
 
-closeOutbtn.addEventListener("click",()=>{
- demoModal.hide();
-})
+// closeOutbtn.addEventListener("click",()=>{
+//  demoModal.hide();
+// })

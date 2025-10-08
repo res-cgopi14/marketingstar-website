@@ -2198,6 +2198,23 @@ p.new-lable-pricing-days {
 
 }
 
+/* request demo pop form close styles */
+
+#close-demo{
+  cursor: pointer;
+}
+#close-demo>img{
+     height: 30px;
+    width: 30px;
+    padding: 3px;
+    margin: 6px;
+}
+.thankyoumsg{
+  font-size: 14px;
+  color: var(--PrimaryClr);
+  margin-top: 10px;
+  display: none;
+}
 
 /* medai query for mobile and tab  */
 @media screen and (max-width:768px) {
