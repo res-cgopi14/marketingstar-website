@@ -213,7 +213,7 @@ function requestDemoForm(event) {
 
         demoModal.hide();
 
-        window.location.href="../../request-demo-oct-cpy.html"
+        window.location.href="https://stg.marketingstar.io/v3/request-demo-oct-cpy.html"
         // if (locationUrlVal.includes('request-demo.html')) {
         //   demoModal.hide();
         //  } else {
