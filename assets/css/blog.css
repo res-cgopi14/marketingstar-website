@@ -1,0 +1,7 @@
+h2{
+    font-size: var(--HeadingThree);
+    font-weight: 700;
+  }
+  .re-info h2 {
+    font-size: var(--Largetxt);
+}
