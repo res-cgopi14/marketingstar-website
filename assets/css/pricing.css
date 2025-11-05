@@ -130,6 +130,9 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
 .pricing-header .ft-16{
   font-size: 16px;
 }
+.Pre-margin{
+  margin-top: 10.6px !important;
+}
 @media all and (max-width:1600px){  
   .pricing-animation{bottom:-5vh!important;}
 }
