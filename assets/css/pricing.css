@@ -17,7 +17,7 @@
   position: relative;
 }
 .pricing-tab .nav{border: solid 1px var(--BorderClr); border-radius: 30px; padding: 7px; display:inline-flex;}
-.pricing-tab .nav .nav-link{background: var(--WhiteClr); width:150px; color: var(--BlackClr); text-align: center; border-radius: 30px; font-size:var(--Bodytext); font-weight: 600;transition:all 1s ease;}
+.pricing-tab .nav .nav-link{background: var(--WhiteClr); width:150px; color: var(--BlackClr); text-align: center; border-radius: 30px; font-size:var(--Bodytext); font-weight: 600;transition:all 1.5s ease;}
 .pricing-tab .nav .nav-link.active{background: var(--PrimaryClr); color: var(--WhiteClr);}
 
 .pricing-grid{transition: all 0.8s ease;  animation:fadeInUp 1.5s ease backwards;}
@@ -201,6 +201,12 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
   .calc-hd h5{font-size: var(--HeadingTwoSml);}
 
   .pricing-animation{top:0vh!important; opacity: 1;}
+  
+    .pricing-table{
+      flex-direction: column;
+      align-items: self-start !important;
+      gap: 10px;
+    }
 
 }
 
@@ -219,3 +225,9 @@ input[type="range"]::-ms-thumb {width: 30px; height: 30px; background: #ffffff; 
       background-size: 16px;
       width: 200px;
     }
+    .pricing-days{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    

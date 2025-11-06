@@ -2153,7 +2153,7 @@ select {
 }
 
 p.new-lable-pricing {
-  left: 65px;
+  /* left: 80px; */
   background: linear-gradient(to right, #970900, #FF1300);
   position: absolute;
   border: none;
@@ -2184,7 +2184,7 @@ p.new-lable-pricing {
 }
 
 p.new-lable-pricing-days {
-  left: 75px;
+  /* left: 85px; */
   background: #ffffff;
   position: absolute;
   border: none;
@@ -2220,12 +2220,12 @@ p.new-lable-pricing-days {
 @media screen and (max-width:768px) {
 
   p.new-lable-pricing-days {
-    left: 70px;
+    /* left: 70px; */
   }
 
   p.new-lable-pricing {
 
-    left: 85px;
+    /* left: 85px; */
     font-size: 12px;
     top: -12px;
 
@@ -2235,14 +2235,14 @@ p.new-lable-pricing-days {
 @media (min-width:768px) and (max-width:1024px) {
 
   p.new-lable-pricing-days {
-    left: 30px;
+    /* left: 30px; */
     font-size: 12px;
     top: -12px;
 
   }
 
   p.new-lable-pricing {
-    left: 30px;
+    /* left: 30px; */
     font-size: 12px;
     top: -12px;
   }

@@ -544,7 +544,9 @@
                                         <div class="pricing-grid tab-content">
                                             <div class="pricing-card position-relative tab-pane active " id="Free"
                                                 role="tabpanel" tabindex="0">
-                                                <p class="new-lable-pricing-days" >For 30 days</p>
+                                                <div class="pricing-days">
+                                                      <p class="new-lable-pricing-days" >For 30 days</p>
+                                                </div>
                                                 <div class="pricing-header d-flex flex-column text-center">
                                                     <h5 class="my-2">Free Plan</h5>
                                                     <p class="my-2">Discover<br>Marketing Star</p>
@@ -632,7 +634,9 @@
 
                                             <div class="pricing-card position-relative tab-pane" id="Ultimate"
                                                 role="tabpanel" tabindex="0">
-                                                <p class="new-lable-pricing">Most Popular</p>
+                                                 <div class="pricing-days">
+                                                        <p class="new-lable-pricing">Most Popular</p>
+                                                </div>
                                                 <div class="pricing-header d-flex flex-column text-center">
                                                     <h5 class="my-2">Ultimate</h5>
                                                     <p class="my-2">Solutions specifically designed to meet your needs
@@ -681,8 +685,9 @@
                                         <div class="pricing-grid  tab-content">
                                             <div class="pricing-card position-relative tab-pane active" id="Free-year"
                                                 role="tabpanel" tabindex="0">
-                                                <p class="new-lable-pricing-days" >For 30 days</p>
-
+                                                <div class="pricing-days">
+                                                        <p class="new-lable-pricing-days" >For 30 days</p>
+                                                        </div>
                                                 <div class="pricing-header d-flex flex-column text-center">
                                                     <h5 class="my-2">Free Plan</h5>
                                                     <p class="my-2">Discover<br> Marketing Star</p>
@@ -771,7 +776,9 @@
 
                                             <div class="pricing-card position-relative tab-pane" id="Ultimate-year"
                                                 role="tabpanel" tabindex="0">
+                                                 <div class="pricing-days">
                                                 <p class="new-lable-pricing">Most Popular</p>
+                                                </div>
                                                 <div class="pricing-header d-flex flex-column text-center">
                                                     <h5 class="my-2">Ultimate</h5>
                                                     <p class="my-2">Solutions specifically designed to meet your needs
@@ -790,9 +797,10 @@
                                                         <li>10 QR codes</li>
                                                         <!-- <li>WhatsApp consumables</li> -->
                                                         <li>10 forms</li>
-                                                        <li>5 landing pages</li>
                                                         <li>50 list uploads</li>
                                                         <li>500,000 maximum record per list</li>
+                                                        <li>5 landing pages</li>
+
                                                         <!-- <li>Branded shortened URL</li>
                                                     <li>Data enricher</li> -->
                                                     <li>Support (chat & email)</li>
@@ -1220,7 +1228,7 @@
     <div class="container-fluid bg-custom-peach">
 
     <div class="container mt-3">
-        <div class="row justify-content-center ps-5">
+        <div class="row justify-content-center ps-5 ps-md-0">
             <div class="pricing-box col col-md-9  ">
                 <h3 class="text-center p-3">Consumables (USD)</h3>
             </div>
@@ -1237,9 +1245,9 @@
                 <div class="pricing-box-row ">
                     <div class="col-9">
                         <p>Per SMS</p>
-                        <div class="align-items-center d-flex">
+                        <div class="align-items-center d-flex pricing-table">
                             <p class="select-country">Select country : </p>
-                            <div class="custom-selectbox ps-3">
+                            <div class="custom-selectbox ps-0 ps-md-3 ">
                                 <select id="sms-country">
                                     <option value="$0.002">India</option>
                                     <option value="$0.024">Singapore</option>
@@ -1259,30 +1267,30 @@
                 <div class="pricing-box-row">
                     <div class="col-9">
                         <p>WhatsApp</p>
-                        <div class="d-md-flex d-sm-block align-items-baseline">
+                        <div class="d-md-flex d-sm-block align-items-baseline ">
                             <p>Select Service &nbsp:</p>
-                            <div class="custom-selectbox ps-3">
+                            <div class="custom-selectbox ps-0 ps-md-3 ">
                                 <select id="what-service">
-                                    <option selected value="Marketing">Marketing</option>
+                                    <option  value="Marketing">Marketing</option>
                                     <option value="Utility">Utility</option>
-                                    <option value="Authentication">Authentication</option>
+                                    <option value="Authentication" selected>Authentication</option>
                                     <option value="Service">Service</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="d-flex mt-2 align-items-baseline">
+                        <div class="d-flex mt-2 align-items-baseline pricing-table">
                             <p>Select Country :</p>
-                            <div class="custom-selectbox ps-3">
+                            <div class="custom-selectbox ps-0 ps-md-3 ">
                                 <select id="what-country">
-                                    <option value="India">India</option>
-                                    <option value="USA" selected>USA</option>
+                                    <option value="India" selected>India</option>
+                                    <option value="USA" >USA</option>
                                     <option value="Brazil">Brazil</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 text-center pricing-bg" id="what-value">
-                        <p>$0.037</p>
+                        <p>$0.00168</p>
                     </div>
                 </div>
 
