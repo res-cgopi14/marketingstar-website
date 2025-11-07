@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@media all{
+  .product-hero{padding: 100px 0px;}
+  .sms-card{display:grid; grid-template-columns:1fr 45%; column-gap: 2rem;}
+  
+  .product-hero-left {row-gap: 25px;}
+  .product-hero-left h1{font-size:var(--HeadingFive); font-weight: normal; color: var(--ProductHdClr);}
+  .product-hero-left h2{font-size:var(--HeadingOne); font-weight: 800; color: var(--ProductHdClr);}
+  .product-hero-left p{font-size:var(--Largetxt); line-height: 36px;}
+  .product-hero-left .home-subscribe{border: solid 1px var(--PrimaryClr);}
+  .sms-hero-img-right{padding-top:84%;}
+
+  .product-tab{background: var(--ProtabBG);}
+  .pt-heading{row-gap:2rem; max-width: 1000px;}
+
+  .pt-heading p{color: #E7E7E7;}
+  .product-tab-outer{display: grid!important; grid-template-columns: 1fr 41%; align-items: center; column-gap:70px; margin-top: 100px!important;}
+  .sms-tab-images {padding-top:56%;}
+  .product-tab-outer .resp-tabs-list{order: 2;}
+  .product-tab-outer .resp-tabs-list li{padding: 0px!important; margin: 0px; color: var(--WhiteClr); opacity: 0.4;  position: relative;}
+  .product-tab-outer .resp-tabs-list li strong{display: block;font-weight: 300;font-size: 22px;margin-bottom: 0.5rem;}
+  .product-tab-outer .resp-tabs-list li:not(:last-child){margin-bottom:30px;}
+  .product-tab-outer .resp-tabs-list li:hover,
+  .product-tab-outer .resp-tabs-list li.resp-tab-active{opacity: 1;}
+  .product-tab-outer .resp-tabs-list li::before{content:''; width:30px; height:20px; background:url(../images/sms/tab-selector.svg) no-repeat center top; position: absolute; left: -70px; top:15px; transition:all 0.5s ease;}
+  .product-tab-outer .resp-tabs-list li.resp-tab-active::before{content: ''; width: 50px; }
+  .product-tab-outer .resp-tabs-container > div{max-width: 90%;}
+
+  .imp-hd p{max-width:1022px; margin:1.4rem auto 0 auto; font-size: var(--Largetxt); line-height: 36px;}
+
+  .analysis-info-cards{display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 50px; row-gap: 50px;}
+  .analysis-info-cards div{/* background: var(--ProtabBG);border: solid 1px #FFDCDC;  */border-radius: 20px;padding: 60px 40px;text-align: center;
+    background: linear-gradient(180deg, rgba(255, 220, 220, 0.7) 0%, #FFFFFF 88.5%);
+    border: 1px solid #FFDCDC;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  }
+  .analysis-info-cards div h4{font-size: 27px; color: var(--NavBG); margin:20px 0px;}
+  .analysis-info-cards div p{font-size: 20px; color: var(--BlackClr);}
+
+
+}
+
+@media all and (max-width:1200px){
+  .product-tab-outer .resp-tabs-list li:not(:last-child){margin-bottom:20px;}
+}
+
+@media all and (max-width:960px){
+  .products-info-heading h2{font-size:var(--HeadingTwo);}
+  .product-tab-outer{grid-template-columns: 1fr; margin-top: 50px!important;}
+  .product-tab-outer .resp-tab-content{padding:0rem!important;border-bottom: solid 1px #891900!important;border: 0px;}
+  .product-tab-outer .tabbed-content {grid-template-columns: 1fr;  column-gap: 0;}
+  .product-tab-outer .tabbed-content .exp-tab-nav{order: 0; text-align: center;}
+  .product-tab-outer .resp-vtabs .resp-tabs-container{border: 0px; border-radius: 0px;}
+  .product-tab-outer .resp-tabs-container h2{margin-bottom: 0px;-webkit-text-fill-color: unset;background: transparent;color: var(--WhiteClr);border: solid 0px var(--BorderClr)!important;font-size: 18px; line-height: normal; font-weight: 400;padding: 1rem 0px;border-bottom: solid 1px #891900!important;}
+  .lm-tab-hd{margin-bottom: 70px;}
+  .product-tab-outer .resp-tabs-container h2.resp-tab-active{border-bottom: transparent!important;}
+  .product-tab-outer .resp-tabs-container > div{max-width: 100%;}
+  .resp-arrow{width: 40px; height: 40px;}
+}
+
+@media all and (max-width:767px){
+  .product-hero-left h1{font-size: var(--HeadingTwoSml);}  
+  .sms-card{grid-template-columns: 1fr; row-gap: 2rem;}
+  .product-hero{padding: 3rem 0px;}
+  .product-hero-left p{line-height: unset;}
+
+  .analysis-info-cards div{padding: 30px 25px;}
+  .analysis-info-cards{grid-template-columns: 1fr; row-gap:2rem;}
+  .analysis-info-cards div p{font-size:18px;}
+  .analysis-info-cards div h4{font-size: var(--HeadingTwoSml);}
+}
+
