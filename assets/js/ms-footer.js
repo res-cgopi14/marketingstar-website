@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
                               data-bs-parent="#accordionExample">
                               <ul>
                                   <li><a href="pricing.html">Pricing</a></li>
-                                  <li><a href="support-service.html">Support services</a></li>
+                                  <li><a href="support-service.html">Support Services</a></li>
                               </ul>
                           </div>
                       </div>

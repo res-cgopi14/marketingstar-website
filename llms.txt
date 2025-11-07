@@ -1,8 +1,8 @@
 # www.marketingstar.io llms.txt
-# Last Updated: October 2025
-# Source: https://www.marketingstar.io/
-# Website Information
-
+## Last Updated: September 2025
+## Source: https://www.marketingstar.io/
+## Website Information
+ 
 - Site: [https://www.marketingstar.io/](https://www.marketingstar.io/)
 - Brand: Marketing Star
 - Description:
@@ -12,10 +12,10 @@ Marketing Star is an all-in-one multichannel marketing automation platform desig
 ---
 
 ## Core Products and Services
-
+ 
 - [Email](https://www.marketingstar.io/email-marketing.html): Marketing Star’s email marketing automation helps SMBs send smarter campaigns, boost engagement & ROI. Try it free & grow faster.
 - [SMS](https://www.marketingstar.io/sms-marketing.html): With Marketing Star’s SMS Marketing Solution, you can create and launch text messaging campaigns that engage customers in real time. Automate workflows, track responses, and turn every message into measurable impact.
-- [WhatsApp](https://www.marketingstar.io/whatsapp-marketing.html): Get the WhatsApp business marketing solution that drives conversions. Automate outreach, segment smartly & engage customers instantly.
+- [WhatsApp](https://www.marketingstar.io/whatsapp-marketing.html): Get the WhatsApp business marketing solution that drives conversions. Automate outreach and engage customers instantly.
 - [QR Code](https://www.marketingstar.io/qr-code-generator.html): Use our trackable QR code generator to create branded, dynamic QR codes. Monitor scans, boost engagement & conversion.
 - [Web Forms](https://www.marketingstar.io/form-generator.html): Build forms without coding using our no-code form generator & online form builder. Embed, automate, and track responses effortlessly.
 - [Template Builder](https://www.marketingstar.io/template-builder.html): Create responsive HTML email templates fast. Our email template builder offers code + drag-and-drop editors.
@@ -82,14 +82,13 @@ https://www.marketingstar.io/request-demo.html
 - Get enterprise-grade marketing automation at a price designed for small and medium-sized businesses
 - Track performance and ROI instantly with intuitive analytics dashboards and detailed reports
 - Use audience data and behavioral triggers to deliver personalized messages that drive engagement and loyalty
-- Build templates, forms, and landing pages without any coding — perfect for marketers of all skill levels
+- Build templates, forms, and landing pages without any coding, perfect for marketers of all skill levels
 - Enrich and analyze customer data to refine targeting, messaging, and campaign performance
 - Maintain a cohesive brand voice and design across all customer touchpoints
-- Adapt and expand your marketing automation as your business grows — without added complexity
+- Adapt and expand your marketing automation as your business grows, without added complexity
 - Boost open rates, clicks, and customer retention through smart automation and timely communication
 - Unified multichannel marketing automation (email, SMS, WhatsApp, QR codes, forms, landing pages)
 - Fast, no-code campaign launch in minutes
-- Advanced audience targeting and segmentation
 - Real-time analytics and predictive insights
 - Cost-effective, scalable pricing with no hidden fees
 - Powerful personalization to drive higher conversion rates
@@ -103,14 +102,14 @@ Primary audience: Small and medium-sized businesses, startups, and growing brand
 
 ## Blog
 
-- [3 Tips to Improve CTRs for Small Businesses](https://www.marketingstar.io/blogs/3-tips-to-improve-click-through-rate-for-small-business.html): Learn 3 practical tips to improve your small business email click-through rates with Marketing Star. Boost engagement and drive more conversions with proven strategies.
-- [Fast Track Business Growth: Seven-Steps to a Successful Go-to-Market Strategy](https://www.marketingstar.io/blogs/seven-steps-go-to-market-strategy.html): A go-to-market (GTM) strategy is a detailed plan companies use to launch a product or service, identify target customers, define unique value, and choose the best channels to reach and engage buyers effectively. 
-- [Promotional SMS campaigns: Crafting messages that drive instant action](https://www.marketingstar.io/blogs/promotional-sms-campaigns.html): Effective promotional SMS campaigns follow best practices such as timing messages well, personalizing content, including clear calls-to-action, and respecting frequency limits to maximize engagement and conversions.
-- [How to warm up your email domain for better deliverability](https://www.marketingstar.io/blogs/how-to-warm-up-your-email-domain-for-better-deliverability.html): Warming up your email domain means gradually increasing your email send volume over several weeks to build trust with email providers. 
-- [Effective email marketing for SMBs: Craft subject lines and CTAs that convert](https://www.marketingstar.io/blogs/effective-email-marketing-for-smbs.html): Effective email marketing for SMBs includes building a targeted list, personalizing content, using automation, optimizing for mobile, crafting compelling subject lines, and consistently delivering valuable messages to boost engagement and sales.
-- [Build a high-quality email list that drives results](https://www.marketingstar.io/blogs/build-a-high-quality-email-list-that-drives-results.html): Build a high-quality email list that drives real results. Learn proven strategies to grow your subscriber base, improve engagement, and boost your email marketing ROI with Marketing Star.
-- [From Scan to Sale: How QR Codes Increase E-Commerce Purchases](https://www.marketingstar.io/blogs/qr-codes-ecommerce-sales.html): QR codes boost e-commerce sales by offering instant access to discounts, product info, and seamless payments.
-- [High performer in G2 marketing automation software report](https://www.marketingstar.io/blogs/high-performer-in-g2-marketing-automation-software-report.html): The blog highlights Marketing Star's high performer status in G2's 2025 Marketing Automation Software Report, recognized for exceptional customer satisfaction and ease of use.
+- [3 Tips to Improve CTRs for Small Businesses](https://www.marketingstar.io/blog/3-tips-to-improve-click-through-rate-for-small-business.html): Learn 3 practical tips to improve your small business email click-through rates with Marketing Star. Boost engagement and drive more conversions with proven strategies.
+- [Fast Track Business Growth: Seven-Steps to a Successful Go-to-Market Strategy](https://www.marketingstar.io/blog/seven-steps-go-to-market-strategy.html): A go-to-market (GTM) strategy is a detailed plan companies use to launch a product or service, identify target customers, define unique value, and choose the best channels to reach and engage buyers effectively. 
+- [Promotional SMS campaigns: Crafting messages that drive instant action](https://www.marketingstar.io/blog/promotional-sms-campaigns.html): Effective promotional SMS campaigns follow best practices such as timing messages well, personalizing content, including clear calls-to-action, and respecting frequency limits to maximize engagement and conversions.
+- [How to warm up your email domain for better deliverability](https://www.marketingstar.io/blog/how-to-warm-up-your-email-domain-for-better-deliverability.html): Warming up your email domain means gradually increasing your email send volume over several weeks to build trust with email providers. 
+- [Effective email marketing for SMBs: Craft subject lines and CTAs that convert](https://www.marketingstar.io/blog/effective-email-marketing-for-smbs.html): Effective email marketing for SMBs involves creating personalized content, leveraging automation, optimizing for mobile devices, crafting compelling subject lines, and consistently delivering valuable messages to increase engagement and drive sales.
+- [Build a high-quality email list that drives results](https://www.marketingstar.io/blog/build-a-high-quality-email-list-that-drives-results.html): Build a high-quality email list that drives real results. Learn proven strategies to grow your subscriber base, improve engagement, and boost your email marketing ROI with Marketing Star.
+- [From Scan to Sale: How QR Codes Increase E-Commerce Purchases](https://www.marketingstar.io/blog/qr-codes-ecommerce-sales.html): QR codes boost e-commerce sales by offering instant access to discounts, product info, and seamless payments.
+- [High performer in G2 marketing automation software report](https://www.marketingstar.io/blog/high-performer-in-g2-marketing-automation-software-report.html): The blog highlights Marketing Star's high performer status in G2's 2025 Marketing Automation Software Report, recognized for exceptional customer satisfaction and ease of use.
 
 ---
 
