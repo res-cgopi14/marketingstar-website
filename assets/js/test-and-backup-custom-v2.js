@@ -217,3 +217,17 @@ function onTurnstileSuccess(token) {
   // Called automatically when user completes captcha
   turnstileToken = token;
 }
+// language js ms
+document.querySelector('#languageswitch').addEventListener('click', () => {
+
+  console.log("S")
+  const url = window.location.href;
+
+  const filename = url.substring(url.lastIndexOf('/') + 1);
+
+  const newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/${filename}`;
+
+  console.log("Redirecting to:", newUrl);
+
+  window.location.href = newUrl;
+});

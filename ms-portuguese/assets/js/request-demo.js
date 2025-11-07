@@ -304,11 +304,11 @@ const onlyNumbers = (e) => {
 const pasteDisable = (event) => {
   event.preventDefault();
 };
-closeDemo.addEventListener("click",()=>{
- demoModal.hide();
-})
+// closeDemo.addEventListener("click",()=>{
+//  demoModal.hide();
+// })
 
 
-closeOutbtn.addEventListener("click",()=>{
- demoModal.hide();
-})
+// closeOutbtn.addEventListener("click",()=>{
+//  demoModal.hide();
+// })

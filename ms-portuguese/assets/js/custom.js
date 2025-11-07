@@ -226,3 +226,27 @@ function onTurnstileSuccess(token) {
   // This function is called automatically when user completes captcha
   turnstileToken = token;  // Save the token for submission
 }
+
+document.querySelector('#languageswitch').addEventListener('click', () => {
+
+  console.log("Language switch clicked");
+
+  const url = window.location.href;
+  const filename = url.substring(url.lastIndexOf('/') + 1);
+
+  let newUrl;
+
+  // check if the path includes "blog"
+  if (url.includes('/blog/')) {
+   newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/blog/${filename}`;
+
+    // newUrl = `http://127.0.0.1:5502/blog/${filename}`;
+  } else {
+   newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/${filename}`;
+    // newUrl = `http://127.0.0.1:5502/${filename}`;
+  }
+
+  console.log("Redirecting to:", newUrl);
+
+  window.location.href = newUrl;
+});

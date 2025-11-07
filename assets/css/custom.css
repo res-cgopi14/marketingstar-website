@@ -2247,3 +2247,29 @@ p.new-lable-pricing-days {
     top: -12px;
   }
 }
+
+/* languge css  */
+.language{
+    cursor: pointer;
+}
+
+.lang-img{
+    height: 22px;
+    width: 35px;
+    
+}
+.language-en{
+    font-size: 18px;
+}
+.sub-menu.mega-menu.menu-lanuge {
+    width: 100px !important;
+    padding: 2px !important;
+    left: 93% !important;
+}
+.lang-box{
+    cursor: pointer;
+}
+/* hide menu lang  */
+li.menu-item-has-children.language-submenu {
+    /* display: none !important; */
+}

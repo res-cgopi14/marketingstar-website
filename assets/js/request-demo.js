@@ -181,7 +181,8 @@ function requestDemoForm(event) {
     // console.log(formData)
     // fetch("https://resu.io/Subscription/IndexInsertTemp/cust_cc33cd4b_2fea_4b94_9123_bb7d48ff673e/229", {
     const urls = [
-        'https://resu.io/Subscription/formsubmission'
+        'https://resu.io/Subscription/formsubmission',
+        'https://frmtrgmail.marketingstar.io/send-email'
     ];
 
     const fetchMultiple = async () => {

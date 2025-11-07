@@ -2230,3 +2230,42 @@ p.new-lable-pricing-days {
     top: -12px;
   }
 }
+
+/* language css  ms*/
+.language{
+    cursor: pointer;
+}
+
+.lang-img{
+    height: 22px;
+    width: 35px;
+    
+}
+.language-en{
+    font-size: 18px;
+}
+.sub-menu.mega-menu.menu-lanuge {
+    width: 100px !important;
+    padding: 2px !important;
+    left: 93% !important;
+}
+.lang-box{
+    cursor: pointer;
+}
+.language-submenu > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#languageswitch>p{
+  color: black;
+}
+#languageswitch>span>img{
+  height: 20px;
+}
+
+/* hide menu lang  */
+li.menu-item-has-children.language-submenu {
+    /* display: none !important; */
+}
