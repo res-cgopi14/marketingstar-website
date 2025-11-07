@@ -2271,5 +2271,5 @@ p.new-lable-pricing-days {
 }
 /* hide menu lang  */
 li.menu-item-has-children.language-submenu {
-    /* display: none !important; */
+    display: none !important;
 }
