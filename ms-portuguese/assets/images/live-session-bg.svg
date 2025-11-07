@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="586.44" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 586.44">
+  <defs>
+    <style>
+      .c {
+        fill: none;
+      }
+
+      .d {
+        mix-blend-mode: soft-light;
+        opacity: .3;
+      }
+
+      .e {
+        isolation: isolate;
+      }
+
+      .f {
+        fill: #330402;
+      }
+
+      .g {
+        opacity: .2;
+      }
+
+      .h {
+        fill: red;
+      }
+
+      .i {
+        clip-path: url(#b);
+      }
+    </style>
+    <clipPath id="b">
+      <rect class="c" x="-6.69" y="-6.36" width="1379.38" height="592.8"/>
+    </clipPath>
+  </defs>
+  <g class="e">
+    <g id="a" data-name="Layer 1">
+      <rect class="f" x="-6.17" y="-3.18" width="1379.38" height="592.8"/>
+      <g class="g">
+        <g class="i">
+          <g class="d">
+            <path class="h" d="M1354.74,83.98l-605.28,651.82,13.66-243.96,361.99-273.44-400.43,220.18-242.47-182.65,872.54-171.95Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

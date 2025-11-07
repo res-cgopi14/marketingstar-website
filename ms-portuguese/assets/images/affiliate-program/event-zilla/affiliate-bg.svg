@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1505.45 691.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #3e0100;
+        filter: url(#drop-shadow-8);
+      }
+
+      .cls-3 {
+        fill: #ffd0d2;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .25;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        opacity: .38;
+      }
+
+      .cls-7 {
+        opacity: .11;
+      }
+
+      .cls-4 {
+        fill: #dc5f69;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-211" y="846.48" width="1932.76" height="559.2" transform="translate(1510.76 2252.17) rotate(180)"/>
+    </clipPath>
+    <filter id="drop-shadow-8" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="0" y="0" width="1505.45" height="690.53" rx="22" ry="22"/>
+    </clipPath>
+  </defs>
+  <g class="cls-8">
+    <g class="cls-7">
+      <path class="cls-3" d="M-316.35,709.98c93.21-172.69,307.09-239.44,477.7-149.11,170.62,90.34,582.07,190.16,488.86,362.84-93.21,172.69-655.8,352.85-826.41,262.51-170.62-90.34-233.36-303.56-140.15-476.25Z"/>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-2" x="0" y="0" width="1504.43" height="691.22" rx="22" ry="22"/>
+    <g class="cls-5">
+      <g>
+        <ellipse class="cls-3" cx="-77.68" cy="-5.21" rx="250.36" ry="251.72"/>
+        <g class="cls-6">
+          <path class="cls-4" d="M1518.43,276.43c0,139.02-112.09,251.72-250.36,251.72s-431.57,73.91-431.57-65.11S1129.8,24.72,1268.07,24.72s250.36,112.7,250.36,251.72Z"/>
+        </g>
+        <g class="cls-7">
+          <path class="cls-3" d="M1625.56,774.33c-66.62,122.6-219.48,169.99-341.42,105.86-121.94-64.14-416.01-135-349.39-257.6,66.62-122.6,468.7-250.51,590.64-186.37,121.94,64.14,166.78,215.51,100.17,338.11Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
