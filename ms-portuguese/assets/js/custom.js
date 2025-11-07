@@ -238,11 +238,11 @@ document.querySelector('#languageswitch').addEventListener('click', () => {
 
   // check if the path includes "blog"
   if (url.includes('/blog/')) {
-   newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/blog/${filename}`;
+   newUrl = `https://stg.marketingstar.io/v3/blog/${filename}`;
 
     // newUrl = `http://127.0.0.1:5502/blog/${filename}`;
   } else {
-   newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/${filename}`;
+   newUrl = `https://stg.marketingstar.io/v3/${filename}`;
     // newUrl = `http://127.0.0.1:5502/${filename}`;
   }
 

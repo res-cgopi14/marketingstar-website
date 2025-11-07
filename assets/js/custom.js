@@ -245,7 +245,7 @@ document.querySelector('#languageswitch').addEventListener('click', () => {
 
     // newUrl = `http://127.0.0.1:5500/blog/${filename}`;
   } else {
-   newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/${filename}`;
+  newUrl = `https://stg.marketingstar.io/v3/ms-portuguese/${filename}`;
     // newUrl = `http://127.0.0.1:5500/${filename}`;
   }
 
