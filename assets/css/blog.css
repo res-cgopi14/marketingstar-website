@@ -5,3 +5,37 @@ h2{
   .re-info h2 {
     font-size: var(--Largetxt);
 }
+
+
+ul.ms-sub-ul {
+    margin-top:25px;
+    margin-left:40px
+}
+ul.ms-sub-ul >li{
+      list-style: circle;
+    position: static;
+    
+}
+
+ul>li{
+  margin-left: 20px;
+}
+
+li.ms-blog-subheading {
+    font-size: 1.3rem !important;
+    font-weight: 700;
+    /* opacity: 0.8; */
+}
+.ms-fadeheading{
+   font-size: 1.3rem !important;
+    font-weight: 700;
+    /* opacity: 0.8; */
+}
+/* ul>li>.ms-ul-munber{
+  list-style-type: ;
+} */
+
+
+h3{
+    font-size:1.3rem !important;
+}
