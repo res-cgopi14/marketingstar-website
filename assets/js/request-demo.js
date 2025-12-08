@@ -4,7 +4,6 @@ var demoModal = new bootstrap.Modal(document.getElementById("formModal"));
 
 const locationUrlVal = window.location.href;
 // const closeDemo =document.querySelector("#close-demo");
-const thanksyoumsg=document.querySelectorAll(".thankyoumsg")[0];
 // const closeOutbtn=document.querySelectorAll(".close-otbtn")[0];
 
 
@@ -42,6 +41,9 @@ function requestDemoForm(event) {
   var livedemo = document.getElementById("live_demo_req").value;
   var mailcheckbox = document.getElementById("mailcheckbox").checked; 
   let mailcheckboxvalue = mailcheckbox?"yes":"no";
+
+  const form= document.getElementById("form-pop-ms");
+const thanksyoumsg=document.querySelectorAll(".thankyoumsg")[0];
 
 
   // var consultCheckbox = document.getElementById("consultCheckbox").checked;
@@ -181,9 +183,13 @@ function requestDemoForm(event) {
     // console.log(formData)
     // fetch("https://resu.io/Subscription/IndexInsertTemp/cust_cc33cd4b_2fea_4b94_9123_bb7d48ff673e/229", {
     const urls = [
-        'https://resu.io/Subscription/formsubmission',
-        'https://frmtrgmail.marketingstar.io/send-email'
+        'https://resu.io/Subscription/formsubmission'
     ];
+
+    //    const urls = [
+    //     'https://resu.io/Subscription/formsubmission',
+    //     'https://frmtrgmail.marketingstar.io/send-email'
+    // ];
 
     const fetchMultiple = async () => {
       try {
@@ -193,16 +199,18 @@ function requestDemoForm(event) {
               'Content-Type': 'application/json'
           },
           body: JSON.stringify(formData)
+          
         }));
         const responses = await Promise.all(fetchPromises);          
         const dataPromises = responses.map(response => response.json());
         const data = await Promise.all(dataPromises);
-    
+        
+        console.log("d1")
         // console.log(data);
 
         demoModal.hide();
       form.reset()
-      thanksyoumsg.display.style="block"
+      // thanksyoumsg.display.style="block"
 
 
         // if (locationUrlVal.includes('request-demo.html')) {

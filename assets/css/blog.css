@@ -39,3 +39,18 @@ li.ms-blog-subheading {
 h3{
     font-size:1.3rem !important;
 }
+.pl-20{
+  padding-left: 20px;
+}
+
+ul.ms-innner-ul{
+margin-top: 10px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:768px) {
+ .pl-20{
+  padding-left: 0;
+}
+
+}
